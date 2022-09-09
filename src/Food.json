@@ -1,0 +1,109 @@
+[
+        {
+            "id": "0",
+            "name" : "Broccoli Rabe",
+            "category":"Vegetables",
+            "description":"Broccoli rabe is even more nutritionally dense than broccoli.",
+            "image":"https://tse2.mm.bing.net/th?id=OIP.N4xPZcgtM1481Px8mvXBqgHaEK&pid=Api&P=0"
+        },
+        {
+            "id": "1",
+            "name" : "Cabbage",
+            "category":"Vegetables",
+            "description":"Cabbage provides a decent source of vitamins C and K1, and it may potentially lower cancer risk.",
+            "image":"https://www.thespruceeats.com/thmb/xdMWdcuRAoZzJJV_EYZuNBfg0-E=/5458x3638/filters:fill(auto,1)/GettyImages-539265800-580a33c55f9b58564c7da9dd.jpg"
+        },
+        {
+            "id": "2",
+            "name" : "Carrots",
+            "category":"Vegetables",
+            "description":"Carrots are a root vegetable that supply a decent source of beta-carotenoids.",
+            "image":"https://tse2.mm.bing.net/th?id=OIP.0xZ4UyqNm0FOz8ELJ15-OgHaE8&pid=Api&P=0"
+        },
+        {
+            "id": "3",
+            "name" : "Coconut Water",
+            "category":"Drinks",
+            "description":"Coconut water is a clear liquid found within fresh coconuts.it's a refreshing drink for those who enjoy the taste.",
+            "image":"https://tse2.mm.bing.net/th?id=OIP.iixeeVaYHE7vtVibAhQb-wHaE8&pid=Api&P=0"
+        },
+        {
+            "id": "4",
+            "name" : "Fruit Juice",
+            "category":"Drinks",
+            "description":"It's much easier to consume too many calories from a few glasses of fruit juice per day than it is by eating multiple whole fruits.",
+            "image":"https://humboldt.global/wp-content/uploads/2018/09/dsBuffer.bmp-1-6.png"
+        },
+        {
+            "id": "5",
+            "name" : "Soda/Soft Drinks",
+            "category":"Drinks",
+            "description":"Diet soda drinks made with a sweetener are likely healthier alternatives to sugar-sweetened beverages.",
+            "image":"https://tse1.mm.bing.net/th?id=OIP.BndXWg1JUMWJNF3dKypDRgHaE4&pid=Api&P=0"
+        },
+        {
+            "id": "6",
+            "name" : "Plant Milks",
+            "category":"Dairy Items",
+            "description":"Plant-based milks are often devised to have a similar nutritional profile to regular dairy milk. they are usually fortified with vitamin B12 and vitamin D.",
+            "image":"https://tse3.mm.bing.net/th?id=OIP.X3hz0qT3RSYcfuVyXSf52wHaFZ&pid=Api&P=0"
+        },
+        {
+            "id": "7",
+            "name" : "Milk and Dairy Drinks",
+            "category":"Dairy Items",
+            "description":"Milkshakes are another trendy dairy drink, but they often contain large amounts of added sugar (and calories).",
+            "image":"https://www.nutritionadvance.com/wp-content/uploads/2021/07/ayran-yogurt-drink-in-a-glass.jpg"
+        },
+        {
+            "id": "8",
+            "name" : "Cherry",
+            "category":"Fruit",
+            "description":"Cherry contains lots of antioxidants that may help reduce the risk of cancer and cardiovascular disease.",
+            "image":"https://tse1.mm.bing.net/th?id=OIP.Q8NhdjlGGmgdg5ENyrUqCAHaE9&pid=Api&P=0"
+        },
+        {
+            "id": "9",
+            "name" : "Blackberry",
+            "category":"Fruit",
+            "description":"It has many health benefits, including being good for your skin and helping to lower blood pressure.",
+            "image":"https://tse3.mm.bing.net/th?id=OIP.4E-v_Gz8fle6VYV-REgA4wHaEo&pid=Api&P=0"
+        },
+        {
+            "id": "10",
+            "name" : "Antep Pistachios",
+            "category":"Nuts And Seeds",
+            "description":"Due to the ideal climate and great soil conditions, these pistachios have a vibrant green color and an intense, complex, and citrusy flavor. ",
+            "image":"https://cdn.tasteatlas.com/images/ingredients/62432806f9d043f58918f3f88944700b.jpg?mw=1300"
+        },
+        {
+            "id": "11",
+            "name" : "Brazil Nut",
+            "category":"Nuts And Seeds",
+            "description":"They improve heart health, help with regulating skin-related problems, stimulate the digestive system, boost the immune system, and improve hormone function. ",
+            "image":"https://tse2.mm.bing.net/th?id=OIP.L1TIfwV8mJ6zP5jAh0sE2gHaHa&pid=Api&P=0"
+        },
+        {
+            "id": "12",
+            "name" : "EGG OMELET",
+            "category":"EGG Items",
+            "description":"Egg omelet is a dish made from beaten eggs , fried with oil mixing with some vegetables such as onion, chilli and some flavored spices.",
+            "image":"https://tse1.mm.bing.net/th?id=OIP.8MXN89wA90Mq01FHDNO_owHaE8&pid=Api&P=0"
+        },
+        {
+            "id": "13",
+            "name" : "EGG CHILLI",
+            "category":"EGG Items",
+            "description":" The eggs and chillies combined help you maintain weight loss. Mix all the sauce ingredients and set aside.",
+            "image":"https://1.bp.blogspot.com/-Hkj5wukgLoM/XZ4-sfnIP-I/AAAAAAAAHEY/aKkmdozeDcI10qCGZWLsV9Z4wal35dx-gCLcBGAsYHQ/w1200-h630-p-k-no-nu/Chilli%2BEgg%2Bwith%2BGravy.JPG"
+        },
+        
+        {
+            "id": "14",
+            "name" : "Mocktail",
+            "category":"Drinks",
+            "description":"It is a cocktail made with non-alcoholic ingredients, rather than with alcohol. ",
+            "image":"https://tse2.mm.bing.net/th?id=OIP.cxd7lXRLfIB_Rmto7SJc5wHaFI&pid=Api&P=0"
+        }
+]
+

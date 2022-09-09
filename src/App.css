@@ -1,0 +1,66 @@
+.header{
+  background-color: lightgray;
+  height: 50px;
+  display: flex;
+ justify-content: space-between;
+}
+.footer{
+  background-color: lightgray;
+  height: 50px;
+}
+.image{
+  height: 200px;
+  width: 350px;
+}
+.foodcard{
+  height: 349px;
+  width: 400px;
+  margin : 50px;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+.fooditem{
+  display: flex;
+  flex-wrap: wrap;
+}
+.foodapp_lite{
+  color: black;
+  font-size: x-large;
+  padding-left: 60px;
+  padding-bottom: 41px;
+  margin-top: 10px;
+}
+.foodapplite_footer{
+  text-align: center;
+  padding-top: 12px;
+}
+.addtocart{
+  width: 94px;
+  height: 26px;
+  margin-top: 11px;
+  margin-right: 187px;
+}
+.category_button{
+  margin : 10px;
+}
+.category_button1{
+  margin : 10px;
+  margin-left: 54px;
+}
+.FoodItemInfo{
+  display: flex;
+  margin: 60px;
+  justify-content: space-around;
+}
+.img{
+  height: 400px;
+  width: 600px;
+}
+.leftimg{
+  margin-left: 45px;
+}
+.iteminfo{
+  margin-left: 78px;
+  margin-top: 76px;
+  /* text-align: center; */
+}
