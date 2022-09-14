@@ -5,6 +5,7 @@ import FoodItemInfo from './components/FoodItemInfo';
 import {Provider} from "react-redux";
 import store from './Store';
 import AddToCart from './components/AddToCart';
+// import CategoryInfo from './components/CategoryInfo';
 
 function App() {
   return (
@@ -14,8 +15,10 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}/>
+        <Route path="/" element={<Home/>}/>
         <Route path="/item/:id" element={<FoodItemInfo/>}/>
         <Route path='/cart' element={<AddToCart/>}/>
+        {/* <Route path='/category/:category' element={<CategoryInfo/>}/> */}
       </Routes>
     </BrowserRouter>
     </Provider>

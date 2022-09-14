@@ -1,5 +1,4 @@
 import React from 'react'
-import FoodItem from './FoodItem'
 import Footer from './Footer'
 import Header from './Header'
 import "../App.css"
@@ -10,7 +9,6 @@ const Home = () => {
    <>
     <Header/>
     <Category/>
-    <FoodItem/>
     <Footer/>
    </>
   )

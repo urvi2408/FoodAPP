@@ -2,8 +2,12 @@ import React from 'react'
 import { useSelector } from 'react-redux';
 import Footer from './Footer';
 import Header from './Header';
+import {DeleteToCartItem,RemoveToCartItem} from "../Actions";
+import {useDispatch} from "react-redux";
 
 const AddToCart = () => {
+
+  const dispatch = useDispatch();
 
   const FoodState  = useSelector((state) => state?.FoodReducer?.FoodList)
   console.log("data from addtocart" , FoodState);
@@ -27,12 +31,14 @@ const AddToCart = () => {
                          <p className='name'><b>{AddItems?.name}</b></p>
                          <p className='category'>Category : {AddItems?.category}</p>
                          <p className='description'>{AddItems?.description}</p>
+                         <button onClick={() => dispatch(DeleteToCartItem(ele))}>Remove From Add To Cart</button>
                     </div>
     </div>
     </>
                 )
             }) 
         }
+        <button className='clearButton' onClick={() => dispatch(RemoveToCartItem(FoodState))}>clear</button>
     </div>
     <Footer/>
     </>

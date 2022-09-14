@@ -3,12 +3,12 @@ import "../App.css"
 import { Link } from "react-router-dom"
 import Food from "../Food.json";
 
-const FoodItem = () => {
+const FoodItem = ({data}) => {
   return (
     <>
     <div className='fooditem'>
        {
-        Food && Food?.length > 0 && Food?.map((ele)=>{
+        data && data?.length > 0 && Food?.map((ele)=>{
             return(
                 <>
                 <div className='foodcard'>
