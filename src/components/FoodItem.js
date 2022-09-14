@@ -8,7 +8,7 @@ const FoodItem = ({data}) => {
     <>
     <div className='fooditem'>
        {
-        data && data?.length > 0 && Food?.map((ele)=>{
+        data && data?.length > 0 && data?.map((ele)=>{
             return(
                 <>
                 <div className='foodcard'>
