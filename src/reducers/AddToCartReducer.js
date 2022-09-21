@@ -3,7 +3,7 @@ const intialstate={
 }
 
 const AddToCartReducer = ( state =  intialstate , action ) => {
-    console.log("data from reducer",action?.payload?.Food);
+    console.log("data from cart reducer",action?.payload);
 
     switch (action.type) {
         case "ADD_FOOD_ITEM": 
@@ -35,34 +35,6 @@ const AddToCartReducer = ( state =  intialstate , action ) => {
                 ...state,
                 FoodList:[]
             };
-
-        case "INCREMENT":
-            // console.log("inc",state);
-            const increment = state?.FoodList?.map((curElem) => 
-         
-            {
-                console.log("state",state);
-                console.log(curElem,"curElem");
-                if (curElem?.FoodList?.id  !== action?.payload?.Food?.id);{
-                return {
-                    ...curElem,
-                    quantity:curElem?.quantity+1
-                };
-            }
-            
-            return curElem;
-            }
-        
-            )
-            
-            console.log("newFoodList",increment);
-            return{
-                ...state,
-                FoodList:increment
-            }
-            
-            
-              
 
         default:
         return state;

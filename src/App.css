@@ -12,9 +12,12 @@
   height: 200px;
   width: 350px;
 }
+.name{
+  text-align: center;
+}
 .foodcard{
   height: 349px;
-  width: 400px;
+  width: 342px;
   margin : 50px;
   margin-bottom: 0px;
   margin-top: 15px;
@@ -61,31 +64,38 @@
 }
 .category_btn1{
   height: 130px;
-  width: 210px;
-  margin-left: 70px;
+  width: 240px;
+  margin-left: 100px;
   margin-top: 5px;
   margin-bottom: 30px;
 }
 .category_btn2{
   height: 130px;
-  width: 190px;
-  margin-left: 50px;
+  width: 215px;
+  margin-left: 60px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 .category_btn3{
-  height: 130px;
-  width: 200px;
-  margin-left: 10px;
+  height: 167px;
+  width: 259px;
+  margin-left: 20px;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .category_btn4{
-  height: 170px;
-  width: 200px;
-  margin-left: 10px;
+  height: 160px;
+  width: 252px;
+  margin-left: 20px;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 14px;
+}
+.category_btn5{
+  height: 177px;
+  width: 217px;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 14px;
 }
 .clearButton{
   margin-left: 697px;
@@ -95,4 +105,7 @@
 }
 .inputnumber{
   width: 70px;
+}
+.totalamout{
+  margin-left: 694px;
 }

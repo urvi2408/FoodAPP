@@ -1,10 +1,10 @@
 import AddToCartReducer from "../reducers/AddToCartReducer"
-import QuantityReducer from "./QuantityReducer"
 import { combineReducers } from "redux";
+import AddToOrderReducer from "./AddToOrderReducer";
 
 const rootReducers = combineReducers({
    FoodReducer : AddToCartReducer,
-   QuantityReducer : QuantityReducer,
+   OrderReducer : AddToOrderReducer,
 })
 
 export default rootReducers;

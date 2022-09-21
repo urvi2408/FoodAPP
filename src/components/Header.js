@@ -8,6 +8,9 @@ const Header = () => {
   const FoodState  = useSelector((state) => state?.FoodReducer)
   console.log("data from addtocart" , FoodState);
 
+  const OrderState  = useSelector((state) => state?.OrderReducer)
+  console.log("data from addtoorder" , OrderState);
+
   return (
     <div className='header'>
        <Link to="/">
@@ -16,7 +19,10 @@ const Header = () => {
        <Link to="/cart">
           <button className='addtocart'>Cart  ({FoodState?.FoodList?.length})</button>
        </Link>
-    </div>
+       <Link to="/order">
+          <button className='addtocart'>My Order ({OrderState?.OrderList?.length})</button>
+       </Link>
+    </div> 
   )
 }
 

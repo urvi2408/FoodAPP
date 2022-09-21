@@ -39,12 +39,12 @@ const Category = () => {
             onClick={() => filterItem('Dairy Items')}
             alt="#"
         />
-        <img className='category_btn3' 
+        <img className='category_btn4' 
             src="https://tse4.mm.bing.net/th?id=OIP.14wWGc3iEzaF5RGibk5yuAHaHa&pid=Api&P=0"
             onClick={() => filterItem('Fruit')}
             alt="#"
         />
-        <img className='category_btn4' 
+        <img className='category_btn5' 
             src="https://media.istockphoto.com/vectors/print-vector-id884000964?k=6&m=884000964&s=612x612&w=0&h=GdR0KDZZ2zjVQLaZoWVaRCj5Jao2ZzXZu-bKIWIUYIQ="
             onClick={() => filterItem('Nuts And Seeds')}
             alt="#"
