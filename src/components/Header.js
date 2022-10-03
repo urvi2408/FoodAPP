@@ -13,15 +13,19 @@ const Header = () => {
 
   return (
     <div className='header'>
-       <Link to="/">
-       <h1 className='foodapp_lite'>Food APP Lite</h1>
+      <div>
+         <Link to="/">
+         <h1 className='foodapp_lite'>Food APP Lite</h1>
        </Link>
-       <Link to="/cart">
-          <button className='addtocart'>Cart  ({FoodState?.FoodList?.length})</button>
-       </Link>
-       <Link to="/order">
-          <button className='addtocart'>My Order ({OrderState?.OrderList?.length})</button>
-       </Link>
+       </div>
+       <div>
+         <Link to="/cart">
+            <button className='addtocart'>Cart  ({FoodState?.FoodList?.length})</button>
+         </Link>
+         <Link to="/order">
+            <button className='addtocart'>My Order ({OrderState?.OrderList?.length})</button>
+         </Link>
+       </div>
     </div> 
   )
 }

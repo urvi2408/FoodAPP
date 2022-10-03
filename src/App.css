@@ -1,46 +1,59 @@
 .header{
-  background-color: lightgray;
-  height: 50px;
+  background-color: burlywood;
+  height: 90px;
   display: flex;
- justify-content: space-between;
+  justify-content: space-between;
+  box-shadow: 2px 5px 14px burlywood;
 }
 .footer{
   background-color: lightgray;
   height: 50px;
+  box-shadow: 2px 17px 16px lightgrey;
 }
 .image{
   height: 200px;
   width: 350px;
+  margin-top: 66px;
 }
 .name{
   text-align: center;
 }
+.imginfo{
+  height: 100px;
+  width: 100px;
+}
 .foodcard{
   height: 349px;
-  width: 342px;
+  width: 400px;
   margin : 50px;
-  margin-bottom: 0px;
+  text-align: center;
+  margin-bottom: 20px;
   margin-top: 15px;
+  border: 1px solid black;
+  border-color: lightgray;
 }
 .fooditem{
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 .foodapp_lite{
   color: black;
   font-size: x-large;
   padding-left: 60px;
   padding-bottom: 41px;
-  margin-top: 10px;
+  margin-top: 22px;
 }
 .foodapplite_footer{
   text-align: center;
   padding-top: 12px;
 }
 .addtocart{
-  width: 94px;
+  width: 120px;
+  color:black;
+  background-color: burlywood;
   height: 26px;
-  margin-top: 11px;
+  margin-top: 29px;
   margin-right: 187px;
 }
 .category_button{
@@ -54,6 +67,7 @@
 .img{
   height: 400px;
   width: 600px;
+  margin-top: 20px;
 }
 .leftimg{
   margin-left: 45px;
@@ -63,35 +77,35 @@
   margin-top: 76px;
 }
 .category_btn1{
-  height: 130px;
-  width: 240px;
+  height: 50px;
+  width: 196px;
   margin-left: 100px;
   margin-top: 5px;
   margin-bottom: 30px;
 }
 .category_btn2{
-  height: 130px;
+  height: 50px;
   width: 215px;
   margin-left: 60px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 .category_btn3{
-  height: 167px;
+  height: 50px;
   width: 259px;
   margin-left: 20px;
   margin-top: 30px;
   margin-bottom: 10px;
 }
 .category_btn4{
-  height: 160px;
-  width: 252px;
-  margin-left: 20px;
-  margin-top: 30px;
-  margin-bottom: 14px;
+  margin-left: 50px;
+  width: 241px;
+  height: 50px;
+  margin-top: 0px;
+  margin-bottom: 36px;
 }
 .category_btn5{
-  height: 177px;
+  height: 50px;
   width: 217px;
   margin-left: 20px;
   margin-top: 30px;
@@ -108,4 +122,12 @@
 }
 .totalamout{
   margin-left: 694px;
+}
+.cardsection{
+  text-align: center;
+  width: 500px;
+}
+.paymentimg{
+  height: 200px;
+  width: 300px;
 }

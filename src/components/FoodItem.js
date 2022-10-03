@@ -15,8 +15,6 @@ const FoodItem = ({data}) => {
                     <img className='image' src={ele?.image} alt="#"/>
                   </Link>
                   <p className='name'><b>{ele?.name}</b></p>
-                  {/* <p className='category'>Category : {ele?.category}</p> */}
-                  {/* <p className='description'>{ele?.description}</p> */}
                 </div>
                 </>
             );

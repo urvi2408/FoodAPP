@@ -6,6 +6,7 @@ import {Provider} from "react-redux";
 import store from './Store';
 import AddToCart from './components/AddToCart';
 import OrderItem from "../src/components/OrderItem"
+import Card  from './components/Card';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/item/:id" element={<FoodItemInfo/>}/>
         <Route path='/cart' element={<AddToCart/>}/>
         <Route path='/order' element={<OrderItem/>}/>
+        <Route path='/payment' element={<Card/>}/>
       </Routes>
     </BrowserRouter>
     </Provider>
